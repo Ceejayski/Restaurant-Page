@@ -1,1 +1,113 @@
 @import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./Pacifico-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "paytone one";
+  src: url("./PaytoneOne-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+main {
+  height: 94vh;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center center;
+  // background-image: url(https://s2.best-wallpaper.net/wallpaper/3840x2160/1803/Hamburger-ketchup-french-fries_3840x2160.jpg);
+}
+
+a {
+  color: inherit !important;
+}
+
+nav {
+  background-color: #05090c;
+}
+
+.navbar-brand {
+  color: #F2C64D !important;
+}
+
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.home {
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(https://s1.1zoom.me/b5353/683/Fast_food_Hamburger_Vegetables_Bottle_530823_3840x2160.jpg);
+  position: relative;
+}
+
+.slider_text {
+  h3 {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 100px;
+    margin-bottom: 27px;
+    color: #fff;
+    font-family: "paytone one", sans-serif;
+  }
+
+  h4 {
+    font-size: 140px;
+    font-family: "MyFont", cursive;
+    color: #F2C64D;
+    position: relative;
+    margin-top: -80px;
+  }
+}
+
+.deal_text {
+  background-image: url(https://preview.colorlib.com/theme/burger/img/shape/1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  padding: 18px 42px;
+
+  span {
+    font-size: 20px;
+    font-family: "paytone one", sans-serif;
+    font-weight: 800;
+    color: #fff;
+  }
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home {
+  font-family: "Myfont", Helvetica, sans-serif;
+  font-size: 2em;
+}
+
+.navbar-nav {
+  margin: auto;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.active {
+  color: rgb(214, 145, 41) !important;
+}
+
+.textspan {
+  height: 400px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
