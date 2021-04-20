@@ -1,6 +1,6 @@
 const HomeCard = () => {
-  const home = document.createElement("div");
-  home.className = "home";
+  const home = document.createElement('div');
+  home.className = 'home';
   home.innerHTML = `<div class="container textspan">
     <div class="row align-items-center justify-content-center">
     <div class="col-xl-9 col-md-9 col-md-12">

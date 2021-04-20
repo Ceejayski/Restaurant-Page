@@ -12,7 +12,8 @@
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
-    "eol-last": "off"
+    "eol-last": "off",
+    "no-plusplus": "off"
   },
   "ignorePatterns": [
     "dist/",
